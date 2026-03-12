@@ -4,7 +4,8 @@ const btnResolver = document.getElementById('solve');
 const categorias = {
     "1001": "01-Iniciante",
     "1002": "01-Iniciante",
-    "1189": "01-Iniciante"
+    "1189": "01-Iniciante",
+    "1190": "01-Iniciante"
 };
 
 btnResolver.addEventListener('click', async () => {
@@ -31,7 +32,7 @@ btnResolver.addEventListener('click', async () => {
         if (resultado !== undefined) {
             const outputDiv = document.getElementById('output');
 
-            outputDiv.innerHTML = `<span>${resultado.toFixed(1)}</span>`;
+            outputDiv.textContent = resultado;
         }
     } catch (error) {
         console.error("Erro ao carregar o arquivo:", error);
