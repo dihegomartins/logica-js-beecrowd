@@ -1,4 +1,10 @@
-# 🐝 Beecrowd Solutions JS
+# 🐝 Lógica JS - Beecrowd
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+</p>
 
 <p align="center">
   <img src="./img/resolucao.png" alt="Demonstração do Projeto" width="100%">
@@ -30,7 +36,7 @@ Os exercícios estão organizados por categorias oficiais:
 ## ⚙️ Como Executar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/beecrowd-solutions.git](https://github.com/seu-usuario/beecrowd-solutions.git)
+   git clone [https://github.com/dihegomartins/logica-js-beecrowd.git](https://github.com/dihegomartins/logica-js-beecrowd.git)
 2. Abra a pasta raiz no VS Code.
 3. Clique com o botão direito no index.html (dentro de src) e selecione "Open with Live Server".
 
