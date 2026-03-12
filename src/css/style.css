@@ -62,3 +62,27 @@ footer {
     padding: 8px;
     color: var(--primary-color)
 }
+
+
+.container-output {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+#output {
+    background-color: #252525; /* Fundo escuro tipo terminal */
+    color: #00ff00;            /* Letras verdes clássicas */
+    padding: 15px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 50px;
+    border: 1px solid #444;
+    margin-top: 5px;
+    box-shadow: inset 0 0 10px #000;
+}
+
+.placeholder {
+    color: #888;
+    font-style: italic;
+}

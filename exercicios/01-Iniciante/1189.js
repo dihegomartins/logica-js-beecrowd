@@ -24,11 +24,14 @@ export function problem(lines) {
             }
         }
     }
-
+    let resultado = "";
     if(operacao === 'M'){
         media = soma/cont
+        resultado = media
         console.log(`${media.toFixed(1)}`)
     } else {
         console.log(`${soma.toFixed(1)}`)
+        resultado = soma
     }
+    return resultado
 }
